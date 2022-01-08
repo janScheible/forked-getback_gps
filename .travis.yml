@@ -2,6 +2,8 @@
 language: android
 os: linux
 dist: xenial
+jdk:
+  - oraclejdk11
 android:
   components:
     - android-29
